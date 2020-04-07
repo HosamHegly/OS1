@@ -16,7 +16,7 @@ void print(const char *text){
     }   
 }
 int child(void *params){
-printf("child_thread");
+print("child_thread");
 return 0;
 
 }
